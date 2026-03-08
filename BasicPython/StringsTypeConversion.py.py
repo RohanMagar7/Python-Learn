@@ -37,4 +37,26 @@ print(a[0:6:1]) # Rohan
 print(a[:4:1]) # Roh
 
 
+# Type Conversion 
+
+# we can see the datatypes int(), float(), str(), bool() 
+# we can converate the data type of varibales 
+# lets see how to convarate data type 
+
+b = 12
+b= str(b) # we can converate anything in str
+print(b) # 12
+
+c = '12'
+c = int(c) # we can converate numaric string only not other character like a,d,e,v,e
+print(c) # 12
+
+d = "hello"
+d = bool(d) # All String are True  but only 7 value are False like -> False, 0, 0.0, "", [],(),{}
+print(d) # True 
+
+# explicit Type conversion - means python automatically converate 
+
+print(2/2) # 1.0 here convarte into float 
+
 
