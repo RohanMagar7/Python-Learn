@@ -34,3 +34,12 @@ print(type(name))
 # <class 'str'>
 
 
+''' Boolean - Theres noting much to say this is the data type
+              which will and always give the result of True and False.
+'''
+
+d = True # boolean not use to here but in if else and other contions useful
+d = False 
+print(type(d))
+# <class 'bool'>
+
