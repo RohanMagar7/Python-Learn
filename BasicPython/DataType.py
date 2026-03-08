@@ -22,3 +22,15 @@ print(type(b))
 c = 34j # j use for imaginary values you can only use j not other r,s,t,e
 print(type(c))
 # <class 'complex'>
+
+''' Strings - This is used to store anything in python. 
+              literally anything that are availabe on your kayboard.
+              You have to use quotes to store anything and it will be considered as string. 
+              You can use double quotes ("" ) or single quotes ( '' ) to store both works same.
+'''
+# in this " " you can write anything you want 
+name = 'Rohan' # in python new varsion remove characters data type now only the string in python 
+print(type(name))
+# <class 'str'>
+
+
